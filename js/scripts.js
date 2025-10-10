@@ -137,7 +137,7 @@ if (consultationForm) {
     const formData = Object.fromEntries(new FormData(consultationForm));
 
     try {
-      const res = await fetch('https://vsjrr8.app.n8n.cloud/webhook/ea5093ed-96ad-43c7-bbbe-f89e5623327c', {
+      const res = await fetch('https://hook.eu2.make.com/ci4ioowkijs18xvhb1wg835xthv1l0eq', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
@@ -158,3 +158,4 @@ if (consultationForm) {
     }
   });
 }
+
