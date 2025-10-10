@@ -25,7 +25,7 @@ body {
     position: absolute;
     width: 2px;
     height: 2px;
-    background: rgba(147, 51, 234, 0.6);
+    background: rgba(0, 191, 166, 1);
     border-radius: 50%;
     animation: float 6s infinite linear;
 }
@@ -67,11 +67,11 @@ nav {
     position: relative;
 }
 .nav-links a:hover {
-    color: #9333ea;
+    color: #00BFA6;
     transform: translateY(-2px);
 }
 .cta-button {
-    background: linear-gradient(135deg, #9333ea, #a855f7);
+    background: linear-gradient(135deg, #00BFA6, #00BFA6);
     color: white;
     padding: 12px 24px;
     border: none;
@@ -80,11 +80,11 @@ nav {
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(147, 51, 234, 0.3);
+    box-shadow: 0 4px 15px rgb(4, 128, 111);
 }
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 25px rgba(147, 51, 234, 0.5);
+    box-shadow: 0 6px 25px rgba(4, 128, 111);
 }
 
 /* Hero Section */
@@ -105,7 +105,7 @@ nav {
 .hero-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #9333ea, #a855f7);
+    background: linear-gradient(135deg, #00BFA6, #00BFA6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -128,7 +128,7 @@ nav {
     line-height: 1.2;
 }
 .hero .highlight {
-    background: linear-gradient(135deg, #9333ea, #a855f7);
+    background: linear-gradient(135deg, #00BFA6, #00BFA6);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -148,7 +148,7 @@ nav {
     flex-wrap: wrap;
 }
 .primary-btn {
-    background: linear-gradient(135deg, #9333ea, #a855f7);
+    background: linear-gradient(135deg, #00BFA6, #00BFA6);
     color: white;
     padding: 16px 32px;
     border: none;
@@ -157,19 +157,19 @@ nav {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
+    box-shadow: 0 4px 20px rgba(4, 128, 111);
     text-decoration: none;
     display: inline-block;
 }
 .primary-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 30px rgba(147, 51, 234, 0.6);
+    box-shadow: 0 6px 30px rgba(4, 128, 111);
 }
 .secondary-btn {
     background: transparent;
-    color: #9333ea;
+    color: #00BFA6;
     padding: 16px 32px;
-    border: 2px solid #9333ea;
+    border: 2px solid #00BFA6;
     border-radius: 30px;
     font-size: 1.1rem;
     font-weight: 600;
@@ -179,7 +179,7 @@ nav {
     display: inline-block;
 }
 .secondary-btn:hover {
-    background: #9333ea;
+    background: #00BFA6;
     color: white;
     transform: translateY(-3px);
 }
@@ -201,7 +201,7 @@ nav {
 .stat-number {
     font-size: 3rem;
     font-weight: bold;
-    color: #9333ea;
+    color: #00BFA6;
     display: block;
     margin-bottom: 10px;
     animation: countUp 2s ease-out;
@@ -258,17 +258,17 @@ nav {
     border-radius: 20px;
     text-align: center;
     transition: all 0.3s ease;
-    border: 1px solid rgba(147, 51, 234, 0.2);
+    border: 1px solid rgba(4, 128, 111);
 }
 .contact-card:hover {
     transform: translateY(-5px);
     border-color: rgba(147, 51, 234, 0.5);
-    box-shadow: 0 10px 30px rgba(147, 51, 234, 0.2);
+    box-shadow: 0 10px 30px rgba(4, 128, 111);
 }
 .contact-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #9333ea, #a855f7);
+    background: linear-gradient(135deg, #00BFA6, #00BFA6);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -277,7 +277,7 @@ nav {
     font-size: 24px;
 }
 .contact-card h3 {
-    color: #9333ea;
+    color: #00BFA6;
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
@@ -290,7 +290,7 @@ nav {
     background: rgba(26, 35, 50, 0.8);
     padding: 50px;
     border-radius: 20px;
-    border: 1px solid rgba(147, 51, 234, 0.2);
+    border: 1px solid rgba(4, 128, 111);
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -315,7 +315,7 @@ nav {
 .form-group textarea {
     width: 100%;
     padding: 15px 20px;
-    border: 2px solid rgba(147, 51, 234, 0.3);
+    border: 2px solid rgba(4, 128, 111);
     border-radius: 10px;
     background: rgba(15, 20, 25, 0.8);
     color: white;
@@ -326,8 +326,8 @@ nav {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #9333ea;
-    box-shadow: 0 0 15px rgba(147, 51, 234, 0.3);
+    border-color: #00BFA6;
+    box-shadow: 0 0 15px rgba(4, 128, 111);
 }
 .form-group textarea {
     resize: vertical;
@@ -339,7 +339,7 @@ nav {
     gap: 20px;
 }
 .submit-btn {
-    background: linear-gradient(135deg, #9333ea, #a855f7);
+    background: linear-gradient(135deg, #00BFA6, #a855f7);
     color: white;
     padding: 16px 40px;
     border: none;
@@ -348,13 +348,13 @@ nav {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
+    box-shadow: 0 4px 20px rgba(4, 128, 111);
     width: 100%;
     margin-top: 10px;
 }
 .submit-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 30px rgba(147, 51, 234, 0.6);
+    box-shadow: 0 6px 30px rgba(4, 128, 111);
 }
 .submit-btn:disabled {
     opacity: 0.6;
@@ -401,7 +401,7 @@ nav {
   width: 350px;
   max-height: 500px;
   background: #fff;
-  border: 2px solid #9333ea;
+  border: 2px solid #00BFA6;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   display: flex;
@@ -427,7 +427,7 @@ nav {
   max-width: 600px;
   height: 500px;
   background: #1a2332;
-  border: 2px solid #9333ea;
+  border: 2px solid #00BFA6;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   display: flex;
@@ -439,7 +439,7 @@ nav {
 }
 
 #chat-header {
-  background: #9333ea;
+  background: #00BFA6;
   color: white;
   padding: 12px;
   font-weight: bold;
@@ -463,7 +463,7 @@ nav {
 }
 
 .message.user {
-  background: #9333ea;
+  background: #00BFA6;
   color: #fff;
   align-self: flex-end;
 }
@@ -476,7 +476,7 @@ nav {
 
 #chat-input-area {
   display: flex;
-  border-top: 1px solid #9333ea;
+  border-top: 1px solid #00BFA6;
   background: #1a2332;
 }
 
@@ -490,7 +490,7 @@ nav {
 }
 
 #chat-send {
-  background: #9333ea;
+  background: #00BFA6;
   color: #fff;
   border: none;
   padding: 0 16px;
@@ -506,10 +506,10 @@ nav {
 }
 
 .logo {
-    text-shadow: 0 4px 20px rgba(147, 51, 234, 0.4);
+    text-shadow: 0 4px 20px rgba(4, 128, 111);
     font-size: 24px;
     font-weight: bold;
-    color: #9333ea;
+    color: #00BFA6;
     text-decoration: none;
     transition: transform 0.3s ease;
     display: flex;           /* Alinea logo y texto en línea */
@@ -518,48 +518,5 @@ nav {
 .logo:hover {
     transform: scale(1.05);
 }
-
-/* === ChatBot incrustado (Botpress) === */
-#webchat {
-  width: 500px;
-  height: 500px;
-  margin: 0 auto;
-  border: 2px solid #3276EA;
-  border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-#webchat .bpWebchat {
-  position: unset;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-#webchat .bpFab {
-  display: none; /* Oculta el botón flotante */
-}
-
-.chatbot-section {
-  text-align: center;
-}
-
-.chatbot-section h2 {
-  margin-bottom: 20px;
-  color: #3276EA;
-  font-weight: 600;
-}
-
-/* Adaptable a móviles */
-@media (max-width: 600px) {
-  #webchat {
-    width: 100%;
-    height: 400px;
-  }
-}
-
 
 
