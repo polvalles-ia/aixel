@@ -7,9 +7,19 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" href="img/logo.png">
 
-  <!-- Script de Botpress -->
-  <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
 </head>
+
+<!-- Chat Widget 
+<div id="chat-widget">
+  <div id="chat-header">Autometa IA 🤖</div>
+  <div id="chat-messages"></div>
+  <div id="chat-input-area">
+    <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." />
+    <button id="chat-send">Enviar</button>
+  </div>
+</div>-->
+
+
 
 <body>
   <div class="particles" id="particles"></div>
@@ -17,10 +27,12 @@
   <!-- Navigation -->
   <nav>
     <div class="nav-container">
+      <!--<a href="index.html" class="logo">Autometa IA</a>-->
       <a href="index.html" class="logo">
         <img src="img/logo.png" alt="Autometa IA Logo" class="logo-img">
         Autometa IA
       </a>
+
 
       <ul class="nav-links">
         <li><a href="index.html">Inicio</a></li>
@@ -52,12 +64,19 @@
     </div>
   </section>
 
-  <!-- ChatBot Section -->
   <section class="section" style="padding-top:5px; padding-bottom:40px;">
-    <h2>Prueba tu chatbot 🤖</h2>
-    <!-- Aquí se carga el chatbot de Botpress -->
-    <div id="webchat"></div>
+  <h2>Prueba tu chatbot 🤖</h2>
+  <div id="chat-widget">
+    <div id="chat-header">Autometa IA 🤖</div>
+    <div id="chat-messages"></div>
+    <div id="chat-input-area">
+      <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." />
+      <button id="chat-send">Enviar</button>
+    </div>
+  </div>
   </section>
+
+
 
   <!-- Stats Section -->
   <section class="stats">
@@ -75,34 +94,7 @@
     </div>
   </section>
 
-  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="js/scripts.js"></script>
-
-  <!-- Inicialización del Chat Botpress -->
-  <script>
-    window.botpress.on("webchat:ready", () => {
-      window.botpress.open();
-    });
-
-    window.botpress.init({
-      "botId": "5b9de7a5-787e-405e-86e7-910e229dcfe2",
-      "configuration": {
-        "version": "v2",
-        "color": "#3276EA",
-        "variant": "solid",
-        "headerVariant": "glass",
-        "themeMode": "light",
-        "fontFamily": "inter",
-        "radius": 4,
-        "feedbackEnabled": false,
-        "footer": "[⚡ by Botpress](https://botpress.com/?from=webchat)",
-        "soundEnabled": false,
-        "proactiveMessageEnabled": false
-      },
-      "clientId": "a967950a-a6ca-48f0-841f-72f460dbe1ba",
-      "selector": "#webchat"
-    });
-  </script>
 </body>
 </html>
