@@ -3,7 +3,7 @@ document.getElementById('miForm').addEventListener('submit', function(e) {
 
   const valor = e.target.mensaje.value;
 
-  fetch('https://TU_N8N_SPACE_URL/webhook/test', {
+  fetch('https://polvallesia-n8n-docker.hf.space//webhook/test', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
