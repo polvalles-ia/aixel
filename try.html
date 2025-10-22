@@ -17,7 +17,7 @@
       e.preventDefault();
       const valor = e.target.mensaje.value;
 
-      const response = await fetch('https://TU_N8N_SPACE_URL/webhook/test', {
+      const response = await fetch('https://polvallesia-n8n-docker.hf.space//webhook/test', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ mensaje: valor })
