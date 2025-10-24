@@ -1,5 +1,5 @@
 // Configuración del webhook - CAMBIA ESTA URL POR LA DE TU WEBHOOK DE N8N
-const WEBHOOK_URL = '';
+const WEBHOOK_URL = 'https://polvalles-axiel.app.n8n.cloud/webhook-test/portfolio';
 
 // Función principal para manejar el envío del formulario
 document.addEventListener('DOMContentLoaded', function() {
