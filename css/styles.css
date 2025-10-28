@@ -518,14 +518,6 @@ nav {
     transform: scale(1.05);
 }
 
-.checkbox-group {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    color: #ccc;
-    gap: 5px; /* Añade un pequeño espacio entre el checkbox y el texto */
-}
-
 .checkbox-label {
   display: flex;
   align-items: center;
