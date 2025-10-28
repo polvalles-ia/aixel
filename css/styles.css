@@ -554,3 +554,37 @@ nav {
   line-height: 1.5;
   font-weight: normal;
 }
+.checkbox-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  cursor: pointer;
+  accent-color: #9333ea;
+}
+
+.checkbox-container label {
+  cursor: pointer;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.checkbox-container label a {
+  color: #64FFDA;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.checkbox-container label a:hover {
+  color: #9333ea;
+  text-decoration: underline;
+}
