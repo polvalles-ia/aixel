@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -115,7 +115,7 @@ nav {
     box-shadow: 0 0 30px rgba(147, 51, 234, 0.5);
 }
 .hero-icon::before {
-    content: "🤖";
+    content: "\1F680";
     font-size: 32px;
 }
 .hero h1 {
@@ -413,7 +413,7 @@ nav {
 
 .contact-card {
   text-decoration: none; /* quita subrayado */
-  color: inherit;        /* mantiene el color original del texto */
+  color: inherit;      /* mantiene el color original del texto */
 }
 
 .contact-card h3,
@@ -498,9 +498,8 @@ nav {
 }
 
 
-
 .logo-img {
-  width: 25px;             /* Ajusta según tu logo */
+  width: 25px;            /* Ajusta según tu logo */
   height: 25px;
   margin-right: 5px;      /* Espacio entre logo y texto */
 }
@@ -512,10 +511,17 @@ nav {
     color: #9333ea;
     text-decoration: none;
     transition: transform 0.3s ease;
-    display: flex;           /* Alinea logo y texto en línea */
-    align-items: center;     /* Centra verticalmente */
+    display: flex;            /* Alinea logo y texto en línea */
+    align-items: center;      /* Centra verticalmente */
 }
 .logo:hover {
     transform: scale(1.05);
 }
 
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #ccc;
+    gap: 5px; /* Añade un pequeño espacio entre el checkbox y el texto */
+}
