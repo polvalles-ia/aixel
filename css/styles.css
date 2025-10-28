@@ -525,3 +525,18 @@ nav {
     color: #ccc;
     gap: 5px; /* Añade un pequeño espacio entre el checkbox y el texto */
 }
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
